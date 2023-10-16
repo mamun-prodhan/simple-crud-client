@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   const handleAddUser = (e) => {
     e.preventDefault();
-    const form = event.target;
+    const form = e.target;
     const name = form.name.value;
     const email = form.email.value;
     const user = { name, email };
